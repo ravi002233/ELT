@@ -1,12 +1,24 @@
 export const menuList = [
   {
+    menu: "Head Count",
+    id: 637,
+    env: "cbi",
+    subMenus: [],
+  },
+  {
+    menu: "Open Requisitions",
+    id: 1714,
+    env: "cbidev",
+    subMenus: [],
+  },
+  {
     menu: "Finance",
     subMenus: [
       {
-        subMenu: "Summary P&L",
-        id: 1700,
+        subMenu: "",
+        id: 1728,
         env: "cbidev",
-        newObj:true,
+        newObj: true,
         items: [
           {
             item: "Engage Financial Performance",
@@ -66,25 +78,12 @@ export const menuList = [
           },
           {
             item: "P&L Detail",
-            id: 1710,
+            id: 1727,
             env: "cbidev",
             tabs: [],
           },
         ],
       },
     ],
-  },
-
-  {
-    menu: "Human Capital",
-    id: 637,
-    env: "cbi",
-    subMenus: [],
-  },
-  {
-    menu: "Open Requisitions",
-    id: 1671,
-    env: "cbidev",
-    subMenus: [],
   },
 ];
