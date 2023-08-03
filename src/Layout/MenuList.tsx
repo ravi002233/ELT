@@ -1,15 +1,49 @@
 export const menuList = [
   {
     menu: "Head Count",
-    id: 637,
-    env: "cbi",
-    subMenus: [],
+    subMenus: [
+      {
+        subMenu: "",
+        id: 637,
+        env: "cbi",
+        newObj: true,
+        items: [
+          {
+            item: "Data Definitions",
+            tabs: [
+              {
+                id: 817,
+                env: "cbi",
+                tab: "",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     menu: "Open Requisitions",
-    id: 1714,
-    env: "cbidev",
-    subMenus: [],
+    subMenus: [
+      {
+        subMenu: "",
+        id: 1714,
+        env: "cbidev",
+        newObj: true,
+        items: [
+          {
+            item: "Data Definitions",
+            tabs: [
+              {
+                id: 1714,
+                env: "cbi",
+                tab: "",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     menu: "Finance",
@@ -68,11 +102,31 @@ export const menuList = [
                 env: "cbidev",
                 tab: "Practice Financials",
               },
+              {
+                id: 1816,
+                env: "cbidev",
+                tab: "Digital Financial Performance - QTD",
+              },
+              {
+                id: 1818,
+                env: "cbidev",
+                tab: "Digital Financial Performance by Practice QTD",
+              },
+              {
+                id: 1817,
+                env: "cbidev",
+                tab: "Digital Financial Performance - YTD",
+              },
+              {
+                id: 1819,
+                env: "cbidev",
+                tab: "Digital Financial Performance by Practice YTD",
+              }
             ],
           },
           {
             item: "Portfolio Scorecard",
-            id: 1711,
+            id: 1788,
             env: "cbidev",
             tabs: [],
           },
