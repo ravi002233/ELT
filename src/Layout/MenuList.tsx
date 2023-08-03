@@ -95,7 +95,7 @@ export const menuList = [
               {
                 id: 1607,
                 env: "cbidev",
-                tab: "Digital Financial Performance - Practices",
+                tab: "DFC - Practices",
               },
               {
                 id: 1656,
@@ -105,22 +105,22 @@ export const menuList = [
               {
                 id: 1816,
                 env: "cbidev",
-                tab: "Digital Financial Performance - QTD",
+                tab: "DFC - QTD",
               },
               {
                 id: 1818,
                 env: "cbidev",
-                tab: "Digital Financial Performance by Practice QTD",
+                tab: "DFC by Practice QTD",
               },
               {
                 id: 1817,
                 env: "cbidev",
-                tab: "Digital Financial Performance - YTD",
+                tab: "DFC - YTD",
               },
               {
                 id: 1819,
                 env: "cbidev",
-                tab: "Digital Financial Performance by Practice YTD",
+                tab: "DFC by Practice YTD",
               }
             ],
           },
