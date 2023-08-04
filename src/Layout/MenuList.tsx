@@ -27,8 +27,8 @@ export const menuList = [
     subMenus: [
       {
         subMenu: "",
-        id: 1714,
-        env: "cbidev",
+        id: "COfHjig0Q2NuhHHYtVXE8z",
+        env: "cbi",
         newObj: true,
         items: [
           {
